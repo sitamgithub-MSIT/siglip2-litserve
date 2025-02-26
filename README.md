@@ -36,7 +36,7 @@ Now, you can see the model's output based on the input request. The model classi
 
 ## Usage
 
-The project can be used to serve the SigLIP 2 family of models using LitServe. It allows you to input an image and candidate labels to classify the image based on the labels provided. The model can be used for various tasks, suggesting potential use cases such as zero-shot image classification and image-text retrieval or as a vision encoder for VLMs (and other vision tasks).
+The project can be used to serve the SigLIP 2 family of models using LitServe. It allows you to input an image and candidate labels to classify it based on the provided labels. The model can be used for various tasks, suggesting potential use cases such as zero-shot image classification, image-text retrieval, or as a vision encoder for VLMs (and other vision tasks).
 
 ## Contributing
 
