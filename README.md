@@ -32,11 +32,11 @@ To get started with this project, follow the steps below:
 3. Open a new terminal window.
 4. Run the client: `python client.py`
 
-Now, you can see the model's output based on the input request. The model will classify the labels of the image and return the output.
+Now, you can see the model's output based on the input request. The model classifies the image labels and returns the output.
 
 ## Usage
 
-The project can be used to serve the SigLIP 2 family of models using LitServe. It allows you to input an image and candidate labels to classify the image based on the labels provided. The model can be used for various tasks, suggesting potential use cases, such as ike zero-shot image classification and image-text retrieval, or as a vision encoder for VLMs (and other vision tasks).
+The project can be used to serve the SigLIP 2 family of models using LitServe. It allows you to input an image and candidate labels to classify the image based on the labels provided. The model can be used for various tasks, suggesting potential use cases such as zero-shot image classification and image-text retrieval or as a vision encoder for VLMs (and other vision tasks).
 
 ## Contributing
 
