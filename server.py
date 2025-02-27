@@ -20,7 +20,7 @@ class SigLIP2API(ls.LitAPI):
         """
         Set up the model for zero-shot classification.
         """
-        model_id = "google/siglip2-so400m-patch14-384"
+        model_id = "google/siglip2-so400m-patch16-naflex"
         self.device = device
         self.model = AutoModel.from_pretrained(model_id).eval().to(self.device)
         self.processor = AutoProcessor.from_pretrained(model_id)
@@ -38,8 +38,7 @@ class SigLIP2API(ls.LitAPI):
             text=labels,
             images=[image],
             return_tensors="pt",
-            padding="max_length",
-            max_length=64,
+            max_num_patches=256,
         ).to(self.model.device)
 
         # Return the model inputs
